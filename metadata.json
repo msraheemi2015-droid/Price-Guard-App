@@ -1,0 +1,7 @@
+{
+  "name": "PriceGuard",
+  "description": "Real Prices. Real People. A comprehensive real-time food and grocery price tracker for Pakistani markets.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

@@ -7,8 +7,7 @@ export const searchItemPrices = async (
   query: string, 
   location?: { latitude: number; longitude: number }
 ): Promise<ItemData> => {
-  const modelId = 'gemini-2.5-flash';
-
+const modelId = 'gemini-2.0-flash';
   const locationInstruction = location 
     ? `The user is located at Lat: ${location.latitude}, Long: ${location.longitude}. 
        1. Identify the city or region closest to these coordinates.

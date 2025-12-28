@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { ItemData } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI(import.meta.env.VITE_GEMINI_API_KEY);
 
 export const searchItemPrices = async (
   query: string, 
